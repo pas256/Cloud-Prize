@@ -4,7 +4,12 @@ Eiter "Best Contribution to Operational Tools, Availability and Manageability" o
 
 ## Describe your Submission
 
-I am adding [Ansible](https://github.com/ansible/ansible/) playbooks to build instances (or AMIs) for various NetflixOSS projects. First up is Asgard, but soon will be the other webapps.
+I am adding [Ansible](https://github.com/ansible/ansible/) playbooks to build instances (or AMIs) for various NetflixOSS projects. So far I have
+* Asgard
+* Eureka
+* Edda
+
+I will be adding more soon.
 
 ## Provide Links to Github Repo's for your Submission
 
