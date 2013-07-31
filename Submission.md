@@ -13,6 +13,6 @@ I will be adding more soon.
 
 ## Provide Links to Github Repo's for your Submission
 
-https://github.com/awsanswers/netflixoss-ansible
+https://github.com/Answers4AWS/netflixoss-ansible
 
-(Note: [AWS Answers](http://awsanswers.com/about/) is my consulting company. I am using that Github account to host this code.)
+(Note: [Answers for AWS](http://answersforaws.com/about/) is my consulting company. I am using that Github account to host this code.)
