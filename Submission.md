@@ -11,6 +11,10 @@ I am adding [Ansible](https://github.com/ansible/ansible/) playbooks to build in
 
 I will be adding more soon.
 
+To build AMIs, you can use the Ansible provisioner I have added to Aminator:
+
+https://github.com/Netflix/aminator/pull/121
+
 ## Provide Links to Github Repo's for your Submission
 
 https://github.com/Answers4AWS/netflixoss-ansible
