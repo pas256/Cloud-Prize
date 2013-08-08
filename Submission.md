@@ -4,14 +4,15 @@ Eiter "Best Contribution to Operational Tools, Availability and Manageability" o
 
 ## Describe your Submission
 
-I am adding [Ansible](https://github.com/ansible/ansible/) playbooks to build instances (or AMIs) for various NetflixOSS projects. So far I have
+I have created [Ansible](https://github.com/ansible/ansible/) playbooks to build instances (or AMIs) for various NetflixOSS projects. So far I have
+* Aminator
 * Asgard
-* Eureka
 * Edda
+* Eureka
 
 I will be adding more soon.
 
-To build AMIs, you can use the Ansible provisioner I have added to Aminator:
+To build AMIs, you can use the Ansible Provisioner I have added to Aminator:
 
 https://github.com/Netflix/aminator/pull/121
 
