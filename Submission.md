@@ -14,14 +14,16 @@ I have created [Ansible](https://github.com/ansible/ansible/) playbooks to build
 
 I will be adding more soon.
 
+### Ansible Provisioner for Aminator
+
 To build AMIs, you can use the Ansible Provisioner I have added to Aminator:
 
-https://github.com/Netflix/aminator/pull/121
+This could perhaps be its own submission, but is a lot more powerful when combined with the above.
 
 ## Provide Links to Github Repo's for your Submission
 
 https://github.com/Answers4AWS/netflixoss-ansible
-
+https://github.com/aminator-plugins/ansible-provisioner
 
 
 # Submission 2
@@ -44,6 +46,32 @@ This monkey has no dependencies other than Python 2.7 and Boto. Edda is not used
 ## Provide Links to Github Repo's for your Submission
 
 https://github.com/Answers4AWS/backup-monkey
+
+
+
+# Submission 3
+
+## Which Categories Best Fit Your Submission and Why?
+
+Best New Monkey
+
+## Describe your Submission
+
+Graffiti Monkey goes around tagging things.
+
+Right now, it is pretty basic. I will loop through EBS volumes that are attached to instances, and copy the Name tag from the instance to the volume. It also adds 2 additional tags (`instance_id` and `device`). Then, it loops through the snapshots, and copies those 3 tags from the EBS volume to the Snapshot.
+
+Special thanks to Joe Sondow for the name (much better than Tag Propagation Monkey)
+
+
+## Provide Links to Github Repo's for your Submission
+
+https://github.com/Answers4AWS/graffiti-monkey
+
+
+# Note
+
+If it makes more sense, combined the 2 monkeys together to be the __First Simian Battalion__ (Am I allowed to use that name?)
 
 
 (Note: [Answers for AWS](http://answersforaws.com/about/) is my consulting company. I am using that Github account to host my code.)
