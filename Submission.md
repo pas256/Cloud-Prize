@@ -33,9 +33,11 @@ This could perhaps be its own submission, but is a lot more powerful when combin
 
 ## Provide Links to Github Repo's for your Submission
 
-https://github.com/Answers4AWS/netflixoss-ansible
-https://github.com/aminator-plugins/ansible-provisioner
+ - https://github.com/Answers4AWS/netflixoss-ansible
+ - https://github.com/aminator-plugins/ansible-provisioner
 
+
+* * *
 
 # Submission 2
 
@@ -49,16 +51,18 @@ I have created a monkey that makes sure there are backups available in case some
 
 It does this by first looping through all EBS volumes, and creating snapshots of them with a specific prefix in the description.
 
-Then it loops through all snapshots looking for that prefix, and removed the oldest ones. You can configure the maximum number of snapshots per volume to keep.
+Then it loops through all snapshots looking for that prefix, and removes the oldest ones. You can configure the maximum number of snapshots per volume to keep.
 
 This monkey has no dependencies other than Python 2.7 and Boto. Edda is not used, though if others find this useful, there may be valuable info to pull in from edda.
 
 
 ## Provide Links to Github Repo's for your Submission
 
-https://github.com/Answers4AWS/backup-monkey
+ - https://github.com/Answers4AWS/backup-monkey
+ - https://pypi.python.org/pypi/backup_monkey (shows usage as number of downloads)
 
 
+* * *
 
 # Submission 3
 
@@ -77,12 +81,14 @@ Special thanks to Joe Sondow for the name (much better than Tag Propagation Monk
 
 ## Provide Links to Github Repo's for your Submission
 
-https://github.com/Answers4AWS/graffiti-monkey
+ - https://github.com/Answers4AWS/graffiti-monkey
+ - https://pypi.python.org/pypi/graffiti_monkey (shows usage as number of downloads)
 
 
-# Note
 
-If it makes more sense, combined the 2 monkeys together to be the __First Simian Battalion__ (Am I allowed to use that name?)
+* * *
 
+# Notes
 
-(Note: [Answers for AWS](http://answersforaws.com/about/) is my consulting company. I am using that Github account to host my code.)
+* If it makes more sense (or increases my chances of winning), combined the 2 monkeys together to be the __First Simian Battalion__. (Am I allowed to use that name?)
+* [Answers for AWS](http://answersforaws.com/about/) is my consulting company. I am using that Github account to host my code.)
