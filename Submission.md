@@ -74,7 +74,7 @@ Best New Monkey
 
 Graffiti Monkey goes around tagging things.
 
-Right now, it is pretty basic. I will loop through EBS volumes that are attached to instances, and copy the Name tag from the instance to the volume. It also adds 2 additional tags (`instance_id` and `device`). Then, it loops through the snapshots, and copies those 3 tags from the EBS volume to the Snapshot.
+Right now, it is pretty basic. It will loop through EBS volumes that are attached to instances, and copy the Name tag from the instance to the volume. It also adds 2 additional tags (`instance_id` and `device`). Then, it loops through the snapshots, and copies those 3 tags from the EBS volume to the Snapshot.
 
 Special thanks to Joe Sondow for the name (much better than Tag Propagation Monkey)
 
@@ -91,4 +91,4 @@ Special thanks to Joe Sondow for the name (much better than Tag Propagation Monk
 # Notes
 
 * If it makes more sense (or increases my chances of winning), combined the 2 monkeys together to be the __First Simian Battalion__. (Am I allowed to use that name?)
-* [Answers for AWS](http://answersforaws.com/about/) is my consulting company. I am using that Github account to host my code.)
+* [Answers for AWS](http://answersforaws.com/about/) is my consulting company. I am using that Github account to host my code.
