@@ -14,9 +14,20 @@ I have created [Ansible](https://github.com/ansible/ansible/) playbooks to build
 
 I will be adding more soon.
 
+I have also pre-built AMIs for the above projects, and made them public, along with the snapshots for them:
+
+https://github.com/Answers4AWS/netflixoss-ansible/wiki/AMIs-for-NetflixOSS
+
+Finally, I have got Asgard listed in the AWS Marketplace:
+
+https://aws.amazon.com/marketplace/pp/B00F46U3TS/
+
+
 ### Ansible Provisioner for Aminator
 
 To build AMIs, you can use the Ansible Provisioner I have added to Aminator:
+
+https://github.com/aminator-plugins/ansible-provisioner
 
 This could perhaps be its own submission, but is a lot more powerful when combined with the above.
 
