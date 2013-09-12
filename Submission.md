@@ -15,13 +15,15 @@ I have created [Ansible](https://github.com/ansible/ansible/) playbooks to build
 
 I will be adding more soon.
 
-I have also pre-built AMIs for the above projects, and made them public, along with the snapshots for them. The list and 1-click links to launch the AMIs can be found here:
+Using these playbooks, I have also built AMIs for the above projects, and made them public, along with the snapshots for them. The list and 1-click links to launch the AMIs can be found here:
 
 https://github.com/Answers4AWS/netflixoss-ansible/wiki/AMIs-for-NetflixOSS
 
 Some of the projects also have CloudFormation templates to automate the tedious stuff:
 
 https://github.com/Answers4AWS/netflixoss-ansible/tree/master/cloudformation
+
+The CloudFormation templates are definitely the easiest way to get started.
 
 Finally, I have got Asgard listed in the AWS Marketplace:
 
