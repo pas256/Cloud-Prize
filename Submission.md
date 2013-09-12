@@ -2,7 +2,7 @@
 
 ## Which Categories Best Fit Your Submission and Why?
 
-Eiter "Best Contribution to Operational Tools, Availability and Manageability" or "Best Usability Enhancement"
+Eiter "Best Contribution to Operational Tools, Availability and Manageability" or "Best Usability Enhancement" or possibly "Best new feature"
 
 ## Describe your Submission
 
@@ -11,12 +11,17 @@ I have created [Ansible](https://github.com/ansible/ansible/) playbooks to build
 * Asgard
 * Edda
 * Eureka
+* Simian Army
 
 I will be adding more soon.
 
-I have also pre-built AMIs for the above projects, and made them public, along with the snapshots for them:
+I have also pre-built AMIs for the above projects, and made them public, along with the snapshots for them. The list and 1-click links to launch the AMIs can be found here:
 
 https://github.com/Answers4AWS/netflixoss-ansible/wiki/AMIs-for-NetflixOSS
+
+Some of the projects also have CloudFormation templates to automate the tedious stuff:
+
+https://github.com/Answers4AWS/netflixoss-ansible/tree/master/cloudformation
 
 Finally, I have got Asgard listed in the AWS Marketplace:
 
