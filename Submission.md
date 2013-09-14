@@ -81,7 +81,7 @@ Best New Monkey
 
 Graffiti Monkey is a service that goes around tagging things.
 
-It will loop through EBS volumes that are attached to instances, and copy the `Name` tag from the instance to the volume. It also adds 2 additional tags (`instance_id` and `device`). Then, it loops through the snapshots, and copies those 3 tags from the EBS volume to the Snapshot. This way, if an EC2 instance is terminated, you always know which EBS volumes and Snapshots were associated with it.
+It will loop through EBS volumes that are attached to instances, and copy the `Name` tag from the instance to the volume. It also adds 2 additional tags (`instance_id` and `device`). Then, it loops through the snapshots, and copies those 3 tags from the EBS volume to the Snapshot. This way, if an EC2 instance is terminated, you always know which EBS volumes and snapshots were associated with it.
 
 Special thanks to Joe Sondow for the name (much better than Tag Propagation Monkey)
 
